@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="/docs/intro">
-            DES3D Tutorial - 5min ⏱️
+            Get Started with Laghost 🚀
           </Link>
         </div>
       </div>
@@ -33,8 +33,8 @@ export default function Home(): ReactNode {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="DES3D Documentation Site">
+      title={`${siteConfig.title}`}
+      description="Laghost Documentation - Lagrangian High-Order Solver for Tectonics">
       <HomepageHeader />
       <main>
         <HomepageFeatures />
