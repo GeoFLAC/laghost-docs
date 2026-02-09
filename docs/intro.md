@@ -36,9 +36,9 @@ Laghost shares theoretical foundations with [DynEarthSol](https://github.com/Geo
 | Aspect | DynEarthSol | Laghost |
 |--------|-------------|---------|
 | FE basis | P1 (linear) | High-order (Q2+) |
-| Mesh | Triangles/tetrahedra | Quads/hexahedra |
+| Mesh | Triangles/tetrahedra | Quads/hexahedra (also triangles/tetrahedra) |
 | Core library | Custom | MFEM |
-| Remeshing | MMG | TMOP |
+| Remeshing | [MMG](https://mmgtools.org) | TMOP |
 | Config format | TOML | TOML (CLI11) |
 
 ## Getting Started
